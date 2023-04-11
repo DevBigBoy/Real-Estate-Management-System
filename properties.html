@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <title>The Home</title>
+
+    <link rel="icon" type="image/png" href="uploads/favicon.png">
+
+    <!-- All CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- All Javascripts -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap5.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.meanmenu.js"></script>
+    <script src="tinymce/tinymce.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="navbar-area" id="stickymenu">
+        <!-- Menu For Mobile Device -->
+        <div class="mobile-nav">
+            <a href="index.html" class="logo">
+                <img src="uploads/logo.png" alt="">
+            </a>
+        </div>
+
+        <!-- Menu For Desktop Device -->
+        <div class="main-nav">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="uploads/logo.png" alt="">
+                    </a>
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="properties.html" class="nav-link">Properties</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="agents.html" class="nav-link">Agents</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="locations.html" class="nav-link">Locations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="pricing.html" class="nav-link">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="faq.html" class="nav-link">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="blog.html" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Login.html" class="nav-link">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-top" style="background-image: url('uploads/banner.jpg')">
+        <div class="bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Property Listing</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="property-result">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <div class="property-filter">
+                        <div class="widget">
+                            <h2>Find Anything</h2>
+                            <input type="text" name="" class="form-control" placeholder="Search Titles ..." />
+                        </div>
+
+                        <div class="widget">
+                            <h2>Location</h2>
+                            <select name="" class="form-control select2">
+                                <option value="">--- Select ---</option>
+                                <option value="">Boston</option>
+                                <option value="">California</option>
+                                <option value="">Chicago</option>
+                                <option value="">Dallas</option>
+                                <option value="">Denver</option>
+                                <option value="">NewYork</option>
+                                <option value="">San Diago</option>
+                                <option value="">Washington</option>
+                                <option value="">Winconsin</option>
+                            </select>
+                        </div>
+
+                        <div class="widget">
+                            <h2>Type</h2>
+                            <select name="" class="form-control select2">
+                                <option value="">--- Select ---</option>
+                                <option value="">Apartment</option>
+                                <option value="">Bungalow</option>
+                                <option value="">Cabin</option>
+                                <option value="">Condo</option>
+                                <option value="">Cottage</option>
+                                <option value="">Duplex</option>
+                                <option value="">Townhouse</option>
+                                <option value="">Villa</option>
+                            </select>
+                        </div>
+
+                        <div class="widget">
+                            <h2>Status</h2>
+                            <select name="" class="form-control select2">
+                                <option value="">--- Select ---</option>
+                                <option value="">For Rent</option>
+                                <option value="">For Sale</option>
+                            </select>
+                        </div>
+
+                        <div class="widget">
+                            <h2>Amenities</h2>
+                            <select name="" class="form-control select2">
+                                <option value="">--- Select ---</option>
+                                <option value="">Free Wifi</option>
+                                <option value="">Swimming Pool</option>
+                                <option value="">Car Parking</option>
+                                <option value="">Air Conditioning</option>
+                                <option value="">Kitchen</option>
+                                <option value="">Gym and Fitness Center</option>
+                            </select>
+                        </div>
+
+                        <div class="widget">
+                            <h2>Bedrooms</h2>
+                            <select name="" class="form-control select2">
+                                <option value="">--- Select ---</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                            </select>
+                        </div>
+
+                        <div class="widget">
+                            <h2>Bathrooms</h2>
+                            <select name="" class="form-control select2">
+                                <option value="">--- Select ---</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                            </select>
+                        </div>
+
+                        <div class="widget">
+                            <h2>Min Price</h2>
+                            <select name="" class="form-control select2">
+                                <option value="">--- Select ---</option>
+                                <option value="">500</option>
+                                <option value="">1000</option>
+                                <option value="">2000</option>
+                                <option value="">3000</option>
+                                <option value="">5000</option>
+                                <option value="">10000</option>
+                            </select>
+                        </div>
+
+                        <div class="widget">
+                            <h2>Max Price</h2>
+                            <select name="" class="form-control select2">
+                                <option value="">--- Select ---</option>
+                                <option value="">500</option>
+                                <option value="">1000</option>
+                                <option value="">2000</option>
+                                <option value="">3000</option>
+                                <option value="">5000</option>
+                                <option value="">10000</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-button">
+                            <button type="submit" class="btn btn-primary">Filter</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <div class="property">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="item">
+                                        <div class="photo">
+                                            <img class="main" src="uploads/property1.jpg" alt="">
+                                            <div class="top">
+                                                <div class="status-sale">
+                                                    For Sale
+                                                </div>
+                                                <div class="featured">
+                                                    Featured
+                                                </div>
+                                            </div>
+                                            <div class="price">$56,000</div>
+                                            <div class="wishlist"><a href=""><i class="far fa-heart"></i></a></div>
+                                        </div>
+                                        <div class="text">
+                                            <h3><a href="property.html">Sea Side Property</a></h3>
+                                            <div class="detail">
+                                                <div class="stat">
+                                                    <div class="i1">2500 sqft</div>
+                                                    <div class="i2">2 Bed</div>
+                                                    <div class="i3">2 Bath</div>
+                                                </div>
+                                                <div class="address">
+                                                    <i class="fas fa-map-marker-alt"></i> 937 Jamajo Blvd, Orlando FL 32803
+                                                </div>
+                                                <div class="type-location">
+                                                    <div class="i1">
+                                                        <i class="fas fa-edit"></i> Villa
+                                                    </div>
+                                                    <div class="i2">
+                                                        <i class="fas fa-location-arrow"></i> Orland
+                                                    </div>
+                                                </div>
+                                                <div class="agent-section">
+                                                    <img class="agent-photo" src="uploads/agent1.jpg" alt="">
+                                                    <a href="">Robert Johnson (AA Property)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="item">
+                                        <div class="photo">
+                                            <img class="main" src="uploads/property2.jpg" alt="">
+                                            <div class="top">
+                                                <div class="status-rent">
+                                                    For Rent
+                                                </div>
+                                                <div class="featured">
+                                                    Featured
+                                                </div>
+                                            </div>
+                                            <div class="price">$4,900</div>
+                                            <div class="wishlist"><a href=""><i class="far fa-heart"></i></a></div>
+                                        </div>
+                                        <div class="text">
+                                            <h3><a href="property.html">Modern Villa</a></h3>
+                                            <div class="detail">
+                                                <div class="stat">
+                                                    <div class="i1">2500 sqft</div>
+                                                    <div class="i2">2 Bed</div>
+                                                    <div class="i3">2 Bath</div>
+                                                </div>
+                                                <div class="address">
+                                                    <i class="fas fa-map-marker-alt"></i> 2006 E Central Blvd, Orlando FL 32803
+                                                </div>
+                                                <div class="type-location">
+                                                    <div class="i1">
+                                                        <i class="fas fa-edit"></i> Condo
+                                                    </div>
+                                                    <div class="i2">
+                                                        <i class="fas fa-location-arrow"></i> Orland
+                                                    </div>
+                                                </div>
+                                                <div class="agent-section">
+                                                    <img class="agent-photo" src="uploads/agent2.jpg" alt="">
+                                                    <a href="">Eric Williams (BB Property)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="item">
+                                        <div class="photo">
+                                            <img class="main" src="uploads/property3.jpg" alt="">
+                                            <div class="top">
+                                                <div class="status-sale">
+                                                    For Sale
+                                                </div>
+                                            </div>
+                                            <div class="price">$79,000</div>
+                                            <div class="wishlist"><a href=""><i class="far fa-heart"></i></a></div>
+                                        </div>
+                                        <div class="text">
+                                            <h3><a href="property.html">Home with Swimming Pool</a></h3>
+                                            <div class="detail">
+                                                <div class="stat">
+                                                    <div class="i1">2500 sqft</div>
+                                                    <div class="i2">2 Bed</div>
+                                                    <div class="i3">2 Bath</div>
+                                                </div>
+                                                <div class="address">
+                                                    <i class="fas fa-map-marker-alt"></i> 3152 Plaza Terrace, Orlando FL 32803
+                                                </div>
+                                                <div class="type-location">
+                                                    <div class="i1">
+                                                        <i class="fas fa-edit"></i> Apartment
+                                                    </div>
+                                                    <div class="i2">
+                                                        <i class="fas fa-location-arrow"></i> New York
+                                                    </div>
+                                                </div>
+                                                <div class="agent-section">
+                                                    <img class="agent-photo" src="uploads/agent3.jpg" alt="">
+                                                    <a href="">Brent Grundy (CC Property)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="item">
+                                        <div class="photo">
+                                            <img class="main" src="uploads/property4.jpg" alt="">
+                                            <div class="top">
+                                                <div class="status-sale">
+                                                    For Sale
+                                                </div>
+                                            </div>
+                                            <div class="price">$79,000</div>
+                                            <div class="wishlist"><a href=""><i class="far fa-heart"></i></a></div>
+                                        </div>
+                                        <div class="text">
+                                            <h3><a href="property.html">Apartment in New York</a></h3>
+                                            <div class="detail">
+                                                <div class="stat">
+                                                    <div class="i1">2500 sqft</div>
+                                                    <div class="i2">2 Bed</div>
+                                                    <div class="i3">2 Bath</div>
+                                                </div>
+                                                <div class="address">
+                                                    <i class="fas fa-map-marker-alt"></i> 3152 Plaza Terrace, Orlando FL 32803
+                                                </div>
+                                                <div class="type-location">
+                                                    <div class="i1">
+                                                        <i class="fas fa-edit"></i> Apartment
+                                                    </div>
+                                                    <div class="i2">
+                                                        <i class="fas fa-location-arrow"></i> New York
+                                                    </div>
+                                                </div>
+                                                <div class="agent-section">
+                                                    <img class="agent-photo" src="uploads/agent4.jpg" alt="">
+                                                    <a href="">Jason Schwartz (DD Property)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="item">
+                                        <div class="photo">
+                                            <img class="main" src="uploads/property5.jpg" alt="">
+                                            <div class="top">
+                                                <div class="status-sale">
+                                                    For Sale
+                                                </div>
+                                            </div>
+                                            <div class="price">$79,000</div>
+                                            <div class="wishlist"><a href=""><i class="far fa-heart"></i></a></div>
+                                        </div>
+                                        <div class="text">
+                                            <h3><a href="property.html">Nice Condo in Orlando</a></h3>
+                                            <div class="detail">
+                                                <div class="stat">
+                                                    <div class="i1">2500 sqft</div>
+                                                    <div class="i2">2 Bed</div>
+                                                    <div class="i3">2 Bath</div>
+                                                </div>
+                                                <div class="address">
+                                                    <i class="fas fa-map-marker-alt"></i> 3152 Plaza Terrace, Orlando FL 32803
+                                                </div>
+                                                <div class="type-location">
+                                                    <div class="i1">
+                                                        <i class="fas fa-edit"></i> Apartment
+                                                    </div>
+                                                    <div class="i2">
+                                                        <i class="fas fa-location-arrow"></i> New York
+                                                    </div>
+                                                </div>
+                                                <div class="agent-section">
+                                                    <img class="agent-photo" src="uploads/agent5.jpg" alt="">
+                                                    <a href="">Michael Wyatt (EE Property)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="item">
+                                        <div class="photo">
+                                            <img class="main" src="uploads/property6.jpg" alt="">
+                                            <div class="top">
+                                                <div class="status-sale">
+                                                    For Sale
+                                                </div>
+                                            </div>
+                                            <div class="price">$79,000</div>
+                                            <div class="wishlist"><a href=""><i class="far fa-heart"></i></a></div>
+                                        </div>
+                                        <div class="text">
+                                            <h3><a href="property.html">Nice Villa in Boston</a></h3>
+                                            <div class="detail">
+                                                <div class="stat">
+                                                    <div class="i1">2500 sqft</div>
+                                                    <div class="i2">2 Bed</div>
+                                                    <div class="i3">2 Bath</div>
+                                                </div>
+                                                <div class="address">
+                                                    <i class="fas fa-map-marker-alt"></i> 3152 Plaza Terrace, Orlando FL 32803
+                                                </div>
+                                                <div class="type-location">
+                                                    <div class="i1">
+                                                        <i class="fas fa-edit"></i> Apartment
+                                                    </div>
+                                                    <div class="i2">
+                                                        <i class="fas fa-location-arrow"></i> New York
+                                                    </div>
+                                                </div>
+                                                <div class="agent-section">
+                                                    <img class="agent-photo" src="uploads/agent6.jpg" alt="">
+                                                    <a href="">Joshua Lash (FF Property)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <h2 class="heading">Important Links</h2>
+                        <ul class="useful-links">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Properties</a></li>
+                            <li><a href="">Agents</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <h2 class="heading">Locations</h2>
+                        <ul class="useful-links">
+                            <li><a href="">New York</a></li>
+                            <li><a href="">Boston</a></li>
+                            <li><a href="">Orlanco</a></li>
+                            <li><a href="">Los Angeles</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <h2 class="heading">Contact</h2>
+                        <div class="list-item">
+                            <div class="left">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="right">
+                                34 Antiger Lane, USA, 12937
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="left">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="right">contact@arefindev.com</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="left">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="right">122-222-1212</div>
+                        </div>
+                        <ul class="social">
+                            <li>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <h2 class="heading">Newsletter</h2>
+                        <p>
+                            To get the latest news from our website, please
+                            subscribe us here:
+                        </p>
+                        <form action="" method="post">
+                            <div class="form-group">
+                                <input type="text" name="" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-primary" value="Subscribe Now">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="copyright">
+                        Copyright 2023, ArefinDev. All Rights Reserved.
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="right">
+                        <ul>
+                            <li><a href="terms.html">Terms of Use</a></li>
+                            <li>
+                                <a href="privacy.html">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-top">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <script src="js/custom.js"></script>
+</body>
+</html>
