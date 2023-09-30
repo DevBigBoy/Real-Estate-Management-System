@@ -181,23 +181,25 @@ section {
 
   .header .navbar .menu {
     position: absolute;
-    top: 100%;
+    top: 99%;
     left: 0;
     right: 0;
     background-color: var(--white);
-    border-radius: 1rem;
-    box-shadow: var(--box-shodow);
     border-top: var(--border);
+    transition: 0.2s linear;
     z-index: 1;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
+
   .header .navbar .menu.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
+
   .header .navbar .menu ul li {
     width: 100%;
     position: relative;
   }
+
   .header .navbar .menu ul li a {
     width: 100%;
   }
